@@ -1,0 +1,8 @@
+
+RewriteEngine On
+
+
+RewriteRule ^$ controllers/index.php [QSA]
+RewriteRule ^species controllers/species.php [QSA]
+RewriteRule ^pokemon$ controllers/pokemon.php [QSA]
+RewriteRule ^abilities$ controllers/abilities.php [QSA]
