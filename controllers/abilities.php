@@ -8,6 +8,7 @@
 
 namespace controllers;
 
+require_once '../vendor/autoload.php';
 use models\View;
 use models\PokeAPI;
 use models\RequestTypes;

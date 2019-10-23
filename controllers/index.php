@@ -5,8 +5,9 @@
  * Date: 22/10/19
  * Time: 08:43
  */
-
-include_once '../models/View.php';
+namespace controllers;
+require_once '../vendor/autoload.php';
+use models\View;
 
 
 $view = new View('index');
